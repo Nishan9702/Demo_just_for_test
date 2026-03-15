@@ -1,0 +1,51 @@
+Clone
+git clone https://github.com/Nishan9702/C7.git (of wanted link)
+
+In push in new file.
+echo "# C7" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+
+git branch (for check the branch)
+//Default was marster 
+git branch -M main (Rename of Branch)
+
+git remote add origin https://github.com/Nishan9702/C7.git
+git push -u origin main
+
+// FOR Change Branching 
+git checkout branch_Name
+
+//Create new Branch
+git checkout -b name of Branch
+
+//Delete Branch
+git branch -d (name of branch name)
+
+## After the 1st push we need only
+
+1.PUSH
+git add .
+git commit -m "give commit"
+git push origin main
+NOTE: 1st push we don't need "git push -u origin main". we just need "git push"
+ 
+
+2nd person
+first up all download the file of the clone file
+Clone
+git clone https://github.com/Nishan9702/C7.git (of wanted link)
+
+git add . [it add all the file] [git add file.html (used for specific file)]
+git status (not necessary)
+git checkout -b login
+git commit -m "second person"
+git push origin login
+
+After download file.
+git pull origin main (note remember the path)
+
+
+
+[If Want to change the path. cd filename/file]
